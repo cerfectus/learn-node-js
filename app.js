@@ -1,7 +1,13 @@
 var stuff = require("./stuff")
 var events = require("events")
 var utils = require("util")
+var fs = require("fs")
 
+fs.unlink("./file/writeMe.txt", ()=>{
+    fs.rmdir("./file", ()=>{
+        
+    })
+})
 var Person = function(name){
     this.name = name
 }
