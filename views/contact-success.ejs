@@ -23,18 +23,9 @@
   <body>
       <% include partials/nav.ejs %>
     <h1>contacto</h1>
-    <p>hola, adios</p>
+    <p>hola gracias por contactarnos</p>
+    <p><%= data.email %></p>
 
-    <form id="contact-form" method="POST" action="/contact">
-      <label for="who">who do you wanna call</label>
-      <input type="text" name="who" value="<%= qs.person%>">
-      <label for="department">which department</label>
-      <input type="text" name="department">
-      <label for="email">email</label>
-      <input type="email" name="email">
-      <input type="submit" value="submit">
-
-
-    </form>
+    
   </body>
 </html>
