@@ -4,10 +4,10 @@ var app = express()
 app.set("view engine", "ejs")
 
 app.get("/", (req,res) => {
-    res.send("hola bobos")
+    res.render("index")
 })
 app.get("/contact", (req, res)=> {
-    res.send("contacto")
+    res.render("contact")
 })
 app.get("/profile/:id", (req,res)=> {
     var data = {age: 29, job : "Ninja", hobbies: ["run","swim","eat","prey","love"]}
