@@ -1,0 +1,27 @@
+{
+  "name": "aprendiendonode",
+  "version": "1.0.0",
+  "description": "hola que paso nodejeros",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerfectus/learn-node-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cerfectus/learn-node-js/issues"
+  },
+  "homepage": "https://github.com/cerfectus/learn-node-js#readme"
+}
